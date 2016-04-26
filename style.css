@@ -26,6 +26,7 @@
   width:1200px;
   height:500px;
   background-color:lightblue;
+  overflow:hidden;
 }
 
 .menuelement {
@@ -37,52 +38,95 @@
 
 #photography {
   background-image:    url(/images/lauren1.jpg);
-  background-size:     cover;                 
+  background-size:     100% 140%;                 
   background-repeat:   no-repeat;
   background-position: center center;
+  transition: background-size 0.2s ease;
+  -moz-transition: background-size 0.2s ease; /* Firefox 4 */
+  -webkit-transition: background-size 0.2s ease; /* Safari and Chrome */
+  -o-transition: background-size 0.2s ease; /* Opera */
+  -ms-transition: background-size 0.2s ease; /* Explorer 10 */
+}
+
+#photography:hover {
+  background-size: 115% 160%;
 }
 
 #development {
   background-image:    url(/images/development.jpg);
-  background-size:     cover;                 
+  background-size:     100% 100%;                 
   background-repeat:   no-repeat;
   background-position: center center;
+  transition: background-size 0.2s ease;
+  -moz-transition: background-size 0.2s ease; /* Firefox 4 */
+  -webkit-transition: background-size 0.2s ease; /* Safari and Chrome */
+  -o-transition: background-size 0.2s ease; /* Opera */
+  -ms-transition: background-size 0.2s ease; /* Explorer 10 */
+}
+
+#development:hover {
+    background-size: 120% 120%;
 }
 
 #videography {
   background-image:    url(/images/videography.jpg);
-  background-size:     cover;                 
+  background-size:     150% 100%;                 
   background-repeat:   no-repeat;
-  background-position: -80px 0px;
+  background-position: center center;
+  transition: background-size 0.2s ease;
+  -moz-transition: background-size 0.2s ease; /* Firefox 4 */
+  -webkit-transition: background-size 0.2s ease; /* Safari and Chrome */
+  -o-transition: background-size 0.2s ease; /* Opera */
+  -ms-transition: background-size 0.2s ease; /* Explorer 10 */
+}
+
+#videography:hover {
+  background-size: 170% 115%;
 }
 
 div h4 {
-  font-size:50px;
+  font-size:60px;
+  padding-top:130px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  opacity:.7;
+  color:white;
 }
 
 #photography h4 {
-  padding-top:320px;
-  color:#FFD194;
+  /*padding-top:320px;
+  color:#FFD194;*/
 }
 
 #development h4 {
-  padding-top:150px;
-  color:#C8F0B2;
+  /*padding-top:150px;
+  color:#C8F0B2;*/
 }
 
 #videography h4 {
-  padding-top:-50px;
-  color:#E97679;
+  /*padding-top:-50px;
+  color:#E97679;*/
 }
 
 .about {
-  background-color:pink;
+  position:relative;
+  background-color:lightblue;
   text-align:center;
+  width:1200px;
+  left:50%;
+  margin-left:-600px;
+  border-radius:10px;
 }
 
 .about h2 {
   font-size:40px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.about p {
+  font-size:20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-bottom: 20px;
+  margin-top:-20px;
 }
 
