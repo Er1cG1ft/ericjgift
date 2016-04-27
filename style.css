@@ -78,6 +78,9 @@ body {
   background-color:lightblue;
   overflow:hidden;
   border-radius:10px;
+  -moz-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  box-shadow: 1px 0px 30px rgba(0,0,0,1);
 }
 
 .menuelement {
@@ -261,26 +264,121 @@ div h4 {
 
 /****DEVELOPMENT****/
 
-.photo1 {
-  position:relative;
-  width:1200px;
-  height:125px;
-  text-align:left;
-  background-color: gray;
-  margin:120px;
-  left:50%;
-  margin-left:-600px;
-  padding-top:5px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  padding-left:50px;
+.devcontent {
+  display:block;
 }
 
-#laurenthumb {
-  width:12%;
-  height:60%;
-  float:right;
+.link {
   position:relative;
-  bottom:40px;
-  right:50px;
+  float:left;
+  top:75px;
+  left:20px;
+  -moz-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  box-shadow: 1px 0px 10px rgba(0,0,0,1);
+  background-color:white;
+  border-radius:5px;
 }
+
+#trashcurbers {
+  background: green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#7CD15C, #D3FFC3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#7CD15C, #D3FFC3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#7CD15C, #D3FFC3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#259393, #BFFFFF); /* Standard syntax */
+}
+
+#trash {
+  width:700px;
+  height:340px;
+  border-radius:5px;
+}
+
+#trashcurbers {
+  height:475px;
+}
+
+/****VIDEOGRAPHY****/
+
+.videocontent {
+  display:block;
+}
+
+.videotitle {
+  margin-top:100px;
+  text-align:center;
+  font-size:40px;
+  padding-bottom:10px;
+}
+
+.project {
+  position:relative;
+  width:1200px;
+  height:500px;
+  text-align:left;
+  background-color: gray;
+  left:50%;
+  margin-left:-625px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left:50px;
+  padding-right:50px;
+  border-radius:5px;
+  -moz-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 0px 30px rgba(0,0,0,1);
+  box-shadow: 1px 0px 20px rgba(0,0,0,1);
+  margin-bottom:50px;
+}
+
+.project h2 {
+  font-size:35px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.project h3 {
+  font-size:20px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.project p {
+  font-size:17px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.video {
+  position:relative;
+  float:left;
+  top:75px;
+  left:70px;
+}
+
+.projcontent {
+  position:relative;
+  width:500px;
+  float:left;
+}
+
+#deltona {
+  background: green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#7CD15C, #D3FFC3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#7CD15C, #D3FFC3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#7CD15C, #D3FFC3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#7CD15C, #D3FFC3); /* Standard syntax */
+}
+
+#deca {
+  background: green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FF9C34, #FFC180); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FF9C34, #FFC180); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FF9C34, #FFC180); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FF9C34, #FFC180); /* Standard syntax */
+}
+
+#anniv {
+  background: green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#D487FF, #EECFFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#D487FF, #EECFFF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#D487FF, #EECFFF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#D487FF, #EECFFF); /* Standard syntax */
+}
+
 
