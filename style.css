@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #5E91E3;
+  background: #2898C5;
 }
 
 .header h1 {
@@ -197,6 +197,12 @@ div h4 {
   height:50px;
   width:50px;
   padding:0px 10px 20px 10px;
+  opacity:.8;
+  transition:.1s opacity;
+}
+
+.about a img:hover {
+  opacity:1;
 }
 
 .contactme {
